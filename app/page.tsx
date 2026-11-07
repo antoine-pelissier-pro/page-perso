@@ -11,11 +11,11 @@ export default function Home() {
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-orange-600">
           Portfolio
         </p>
-        <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">
+        <h1 className="text-5xl font-semibold tracking-tight sm:text-8xl">
           Antoine
         </h1>
         <p className="mt-6 max-w-xl text-xl text-neutral-600 sm:text-2xl">
-          Ta phrase forte ici, courte et directe.
+          Vise les etoiles pour toucher la lune.
         </p>
       </section>
 
