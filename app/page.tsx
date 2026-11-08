@@ -6,41 +6,41 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-fond text-texte">
       <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col justify-center px-6">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-orange-600">
+        <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-accent">
           Portfolio
         </p>
-        <h1 className="text-5xl font-semibold tracking-tight sm:text-8xl">
+        <h1 className="font-display text-5xl font-bold tracking-tight sm:text-8xl">
           Antoine
         </h1>
-        <p className="mt-6 max-w-xl text-xl text-neutral-600 sm:text-2xl">
-          Vise les etoiles pour toucher la lune.
+        <p className="mt-6 max-w-xl text-xl text-discret sm:text-2xl">
+          Ta phrase forte ici, courte et directe.
         </p>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-20">
-        <h2 className="mb-10 text-sm uppercase tracking-[0.3em] text-neutral-500">
+      <section className="mx-auto max-w-4xl px-6 py-24">
+        <h2 className="mb-12 text-sm uppercase tracking-[0.3em] text-discret">
           Compétences
         </h2>
         <div className="grid gap-8 sm:grid-cols-3">
           {skills.map((s) => (
-            <div key={s.titre} className="border-t border-black pt-4">
-              <h3 className="text-lg font-medium">{s.titre}</h3>
-              <p className="mt-2 text-neutral-600">{s.texte}</p>
+            <div key={s.titre} className="border-t border-primaire pt-4">
+              <h3 className="font-display text-lg font-medium">{s.titre}</h3>
+              <p className="mt-2 text-discret">{s.texte}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="bg-black px-6 py-20 text-white">
+      <section className="bg-primaire px-6 py-24 text-fond">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-sm uppercase tracking-[0.3em] text-neutral-400">
+          <h2 className="text-sm uppercase tracking-[0.3em] text-fond/70">
             Contact
           </h2>
           <a
             href="mailto:antoinepelissier0110@gmail.com"
-            className="mt-6 inline-block text-2xl text-orange-500 underline-offset-8 hover:underline sm:text-4xl"
+            className="mt-6 inline-block font-display text-2xl font-medium underline-offset-8 hover:underline sm:text-4xl"
           >
             antoinepelissier0110@gmail.com
           </a>
